@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "name": "Daily Backup",
+      "schedule": "0 0 * * *",
+      "script": "C:\\Scripts\\backup.ps1",
+      "description": "Daily backup at midnight"
+    },
+    {
+      "name": "System Health Check",
+      "schedule": "0 */4 * * *",
+      "script": "C:\\Scripts\\health-check.ps1",
+      "description": "System health check every 4 hours"
+    }
+  ]
+}

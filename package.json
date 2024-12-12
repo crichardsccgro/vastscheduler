@@ -1,0 +1,14 @@
+{
+  "name": "powershell-scheduler",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "node-schedule": "^2.1.1",
+    "node-powershell": "^5.0.0",
+    "winston": "^3.11.0"
+  }
+}
